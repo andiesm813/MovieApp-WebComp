@@ -27,7 +27,7 @@ export default class MyPurchases extends LitElement {
       overflow: auto;
       position: relative;
       padding: 32px;
-      min-width: 50px;
+      min-width: max-content;
       min-height: 50px;
       flex-grow: 1;
       flex-basis: 0;
